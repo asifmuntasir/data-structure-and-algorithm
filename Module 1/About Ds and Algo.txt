@@ -1,0 +1,49 @@
+## What is Data Structure?
+
+1. Data is everywhere. There are many way to represent data.
+Like as, 
+    i. Plain Data.
+    ii. Organizing/structuring data into array.
+    iii. Organizing/structuring data into object.
+2. In JS array and object is a built in Data Structure.
+
+
+SO the main goal to learn DS is that, The best way to Structure
+/organize data so taht we cal easily access, manipulate the data 
+like as add, update and delete.
+
+
+--------------------------------------------------
+
+## Algorithm
+
+1. Steps to solve a specific Problem. We will understand it 
+with a code example. 
+
+{
+    function sumUpTo(n) {
+        let total = 0;
+        for (let i = 1; i < n; i++) {
+            total += 1;
+        }
+        return total;
+    }
+    sumUpTo(10);
+    ----------------------------------
+    => Steps to solve this problem
+    i. Tracking data (total).
+    ii. Running loop to iterating the number (i).
+    iii. Return the number to use the output (total).
+}
+
+
+## Now why we should care about it?
+
+Ans: 
+1. Easier way to access any data
+2. Data is organized. Steps to follow to access is not as
+easy as you think!
+3. Saving milliseconds counts!
+
+
+The best example is Google Search
