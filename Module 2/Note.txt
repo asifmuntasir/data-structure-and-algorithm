@@ -1,0 +1,30 @@
+# How to measuring code efficiency?
+Ans:
+-----
+-> Readability.
+-> How much time it takes while running.
+
+But we have so many ways to solving a specific problem. Like as
+there has two program in below and our task is to find which 
+one is better. Now what does mean about better? Is it---
+- Faster in execution(Require is less time).
+- Less memory-intensive(Requires in less memory). How much memory
+it takes while execute.
+- More Readable?
+
+
+## BIG O
+-----------
+
+-> Hows the operations grows based on input?
+    1. f(n) could be linear [f(n) = n].
+    'Operation will increase/decrease with value of `n` rate'.
+    2. f(n) could be quadratic [f(n) = n^2].
+    'Operation will be double with the value of `n` rate'.
+    3. f(n) could be constant [f(n) = n].
+    'Operation will increase/decrease without depends on `n` rate'.
+    4. f(n) could be logarithmic [f(n) = log(n)].
+    5. f(n) could be loglinear [f(n) = nlog(n)].
+    6. f(n) could be something entirely different.
+    [It means programe can't be made any realtion with the 
+    input decrease/increase value]
