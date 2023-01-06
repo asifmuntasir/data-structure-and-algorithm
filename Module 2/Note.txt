@@ -28,3 +28,40 @@ it takes while execute.
     6. f(n) could be something entirely different.
     [It means programe can't be made any realtion with the 
     input decrease/increase value]
+
+
+## Normalizing and Removing Constant
+---------------------------------------
+
+    1. O(500) --> O(1)
+    2. O(2n) --> O(n)
+    3. O(5n^2) --> O(n^2)
+    4. O(2n+n) --> O(n)
+    5. O(10n^2+n+2) --> O(n^2)
+        -------     -----------
+        Constant     Remove Constant
+
+Note: Big O indicate worse situation for any program. 
+
+
+## What does BIG O indicate?
+-------------------------------
+
+-> It indicates worse case / situation.
+-> How many number of Operation increase / relates with input.
+
+Note: 
+        1. Best Case (Omega).
+        2. Average Case (Theta).
+        3. Worse Case (Big O).
+
+
+
+## BIG O Shorthands
+----------------------
+
+-> Arithmetic operations are constant.
+-> Variable assignment is constant.
+-> Accessing element is an array (by index) OR Object (by key) is constant.
+-> In a loop the complexity is the length of the loop times the complexity
+    of whatever happens inside of the loop.
